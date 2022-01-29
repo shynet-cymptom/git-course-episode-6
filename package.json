@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "test": "mocha"
+    "test": "mocha",
+    "test:ci": "mocha --reporter json > test-results.json"
   },
   "repository": {
     "type": "git",
